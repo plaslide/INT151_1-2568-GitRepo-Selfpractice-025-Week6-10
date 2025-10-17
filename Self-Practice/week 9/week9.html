@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Practice Arena</title>
+    <style>
+        body { font-family: sans-serif; }
+        .container { border: 1px solid #ccc; padding: 10px; margin-top: 10px; }
+        .item { color: blue; }
+        .highlight { background-color: yellow; }
+        .error-text { color: red; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">DOM Practice Arena</h1>
+    </header>
+
+    <main id="main-content">
+        <section class="container" id="section-a">
+            <h2>Section A</h2>
+            <p>This is the first paragraph.</p>
+            <ul id="list-a">
+                <li class="item">Item 1</li>
+                <li class="item" data-status="pending">Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </section>
+
+        <section class="container" id="section-b">
+            <h2>Section B</h2>
+            <div id="target-div">I am a target.</div>
+            <button id="action-button">Click Me</button>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">&copy; 2025 Practice Zone</p>
+    </footer>
+
+    ...
+    <script src="week9.js"></script>
+</body>
+</html>

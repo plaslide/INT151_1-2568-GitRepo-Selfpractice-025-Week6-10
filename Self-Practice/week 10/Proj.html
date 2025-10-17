@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Settings Example</title>
+  <style>
+    body {
+      background-color: white;   /* default */
+      color: black;             /* default */
+      font-size: medium;        /* default */
+      font-family: Arial, sans-serif;
+    }
+    .form-section {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-section">
+    <label>Background Color: </label>
+    <input type="color" id="bgColor" value="#ffffff"><br><br>
+
+    <label>Font Color: </label>
+    <input type="color" id="fontColor" value="#000000"><br><br>
+
+    <label>Font Size: </label>
+    <select id="fontSize">
+      <option value="small">Small</option>
+      <option value="medium" selected>Medium</option>
+      <option value="large">Large</option>
+    </select><br><br>
+
+    <button id="saveBtn">Save</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <script src="Proj.js"></script>
+</body>
+</html>
